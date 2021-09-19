@@ -11,9 +11,9 @@ public class Converter {
     }
 
     public static void main(String[] args) {
-        float euro = Converter.rubleToEuro(140);
-        float dollar = Converter.rubleToDollar(140);
         float in = 140;
+        float euro = Converter.rubleToEuro(in);
+        float dollar = Converter.rubleToDollar(in);
         float expectedEuro = 2;
         float expectedDollar = 2.3333333f;
         float outEuro = Converter.rubleToEuro(in);
