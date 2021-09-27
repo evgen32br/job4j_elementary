@@ -10,7 +10,7 @@ public class Fit {
     }
 
     public static void main(String[] args) {
-        short height = 178;  // мой рост
+        short height = 178;
         double man = Fit.manWeight(height);
         double woman = Fit.womanWeight(height);
 
