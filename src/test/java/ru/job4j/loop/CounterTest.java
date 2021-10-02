@@ -7,7 +7,7 @@ public class CounterTest {
 
     @Test
     public void whenSumEvenNumbersFrom1To10Then30() {
-        int start = 1;
+        int start = 0;
         int finish = 10;
         int result = Counter.sumByEven(start, finish);
         int expected = 30;

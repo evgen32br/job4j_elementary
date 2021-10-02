@@ -13,7 +13,7 @@ public class Counter {
         int sum = 0;
         for (int i = start; i <= finish; i++) {
             if (i % 2 == 0) {
-                sum = sum + i ;
+                sum = sum + i;
             }
         }
         return sum;
@@ -21,7 +21,7 @@ public class Counter {
 
     public static void main(String[] args) {
         System.out.println(sum(0, 10));
-        System.out.println(sum(3, 8));
+        System.out.println(sum(3, 10));
         System.out.println(sum(1, 1));
         System.out.println(sum(1, 99));
         System.out.println(sum(10, 5));
