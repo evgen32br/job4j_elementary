@@ -33,6 +33,7 @@ public class FindLoopTest {
         int expected = 3;
         Assert.assertEquals(expected, result);
     }
+
     @Test
     public void whenFind0() {
         int[] data = new int[]{2, 2, 2, 2, 2, 2, 2};
