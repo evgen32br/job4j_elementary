@@ -25,6 +25,5 @@ public class MathCalculator {
         System.out.println("Результат расчета равен: " + sumAndMultipli(10, 20));
         System.out.println("Результат расчета равен: " + diffAndShare(10, 20));
         System.out.println("Результат расчета равен: " + totalVal(10, 20));
-
     }
 }

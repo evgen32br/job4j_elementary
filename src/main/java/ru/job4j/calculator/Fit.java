@@ -13,7 +13,6 @@ public class Fit {
         short height = 178;
         double man = Fit.manWeight(height);
         double woman = Fit.womanWeight(height);
-
         System.out.print("Man " + height + " is ");
         System.out.format("%.1f", man);
         System.out.println();
