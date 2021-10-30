@@ -15,20 +15,23 @@ public class MaxTest {
     }
 
     @Test
-    public void whenMax4To2Then4() {
-        int left = 4;
-        int right = 2;
-        int result = Max.max(left, right);
+    public void whenMax1To2To4Then4() {
+        int first = 1;
+        int second = 2;
+        int third = 4;
+        int result = Max.max(first, second, third);
         int expected = 4;
         Assert.assertEquals(result, expected);
     }
 
     @Test
-    public void whenMax3To3Then3() {
-        int left = 3;
-        int right = 3;
-        int result = Max.max(left, right);
-        int expected = 3;
+    public void whenMax3To10To6To9Then10() {
+        int first = 3;
+        int second = 10;
+        int third = 6;
+        int fourth = 9;
+        int result = Max.max(first, second, third, fourth);
+        int expected = 10;
         Assert.assertEquals(result, expected);
     }
 }
